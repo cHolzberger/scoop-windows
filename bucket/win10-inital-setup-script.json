@@ -1,0 +1,32 @@
+{
+    "version": "3.8",
+    "checkver": {
+        "github": "https://github.com/Disassembler0/Win10-Initial-Setup-Script"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Disassembler0/Win10-Initial-Setup-Script/archive/3.8.zip",
+            "hash": "74eb5a125eb41a65450ce436cbf2702f1a8743398c4f764532d4030358639983",
+            "extract_dir": "Win10-Initial-Setup-Script-3.8"
+        },
+        "32bit": {
+            "url": "https://github.com/Disassembler0/Win10-Initial-Setup-Script/archive/3.8.zip",
+            "hash": "74eb5a125eb41a65450ce436cbf2702f1a8743398c4f764532d4030358639983",
+            "extract_dir": "Win10-Initial-Setup-Script-3.8"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Disassembler0/Win10-Initial-Setup-Script/archive/$version.zip",
+                "hash": "download",
+                "extract_dir": "Win10-Initial-Setup-Script-$version"
+            },
+            "32bit": {
+                "url": "https://github.com/Disassembler0/Win10-Initial-Setup-Script/archive/$version.zip",
+                "hash": "download",
+                "extract_dir": "Win10-Initial-Setup-Script-$version"
+            }
+        }
+    }
+}

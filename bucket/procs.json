@@ -1,0 +1,20 @@
+{
+    "version": "0.8.13",
+    "checkver": {
+        "github": "https://github.com/dalance/procs"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dalance/procs/releases/download/v0.8.13/procs-v0.8.13-x86_64-win.zip",
+            "hash": "60f004d9180205ac2bca4eef1858e8e76a4f5f680e2af88a86dc0f5e054b92d3"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dalance/procs/releases/download/v$version/procs-v$version-x86_64-win.zip",
+                "hash": "download"
+            }
+        }
+    }
+}
