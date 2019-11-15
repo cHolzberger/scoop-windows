@@ -8,7 +8,7 @@
         "dhall-to-yaml.exe",
         "dhall-to-json.exe",
         "json-to-dhall.exe",
-        "yaml-to-dahll.exe"
+        "yaml-to-dhall.exe"
     ],
     "architecture": {
         "64bit": {
