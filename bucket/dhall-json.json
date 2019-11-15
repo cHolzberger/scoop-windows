@@ -1,20 +1,25 @@
 {
-    "version": "1.0.24",
+    "version": "1.5.0",
     "checkver": {
         "url": "https://github.com/dhall-lang/dhall-haskell/releases/latest",
-        "re": "download/(?<dhall>[\\d.]+)/dhall-bash-(?<version>[\\d.]+)-x86_64-windows\\.zip"
+        "re": "download/(?<dhall>[\\d.]+)/dhall-json-(?<version>[\\d.]+)-x86_64-windows\\.zip"
     },
-    "bin": [ ["dhall-to-yaml.exe"],["dhall-to-json.exe"], ["json-to-dhall.exe"], ["yaml-to-dahll.exe"], ["json-to-dhall.exe"]],
+    "bin": [
+        "dhall-to-yaml.exe",
+        "dhall-to-json.exe",
+        "json-to-dhall.exe",
+        "yaml-to-dahll.exe"
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.27.0/dhall-bash-1.0.24-x86_64-windows.zip",
-            "hash": "a4112e522a0c2767d5872f38dc5e0bff1a1f2bf0c9b298f8b8cc2023abb2d425"
+            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.27.0/dhall-json-1.5.0-x86_64-windows.zip",
+            "hash": "69f7ac0790cf5c85a358fae2d9d85515e466a5bce7d46230a8ef2046a15ac0ae"
         }
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/$matchDhall/dhall-bash-$version-x86_64-windows.zip",
+                "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/$matchDhall/dhall-json-$version-x86_64-windows.zip",
                 "hash": "download"
             }
         }
