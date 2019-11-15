@@ -4,6 +4,11 @@
         "github": "https://github.com/dhall-lang/dhall-haskell"
     },
     "bin": "dhall.exe",
+    "suggest": {
+      "dhall-to-json / dhall-from-json": "dhall-json",
+      "dhall-to-bash": "dhall-bash",
+      "dhall language server": "dhall-lsp-server"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.27.0/dhall-1.27.0-x86_64-windows.zip",
