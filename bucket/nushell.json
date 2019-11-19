@@ -4,7 +4,7 @@
         "github": "https://github.com/nushell/nushell",
         "re": "nu_(?<version>[\\d]+_[\\d]+_[\\d]+)_windows.zip"
     },
-    "bin": "nushell.exe",
+    "bin": "nu.exe",
     "architecture": {
         "64bit": {
             "url": "https://github.com/nushell/nushell/releases/download/0_5_0/nu_0_5_0_windows.zip",
