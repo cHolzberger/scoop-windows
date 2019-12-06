@@ -1,0 +1,5 @@
+{
+  "name": "Scoop-Repo"
+, "files": [ { "git": 1 } , { "directory": ".", "recursive": 1}
+]
+}
