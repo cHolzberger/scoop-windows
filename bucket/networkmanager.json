@@ -1,0 +1,25 @@
+{
+    "version": "2019.12.0",
+    "bin": "networkmanager.exe",
+    "extrac_dir": "networkmanager",
+    "checkver": {
+        "github": "https://github.com/BornToBeRoot/NETworkManager"
+    },
+    "persist": "Settings",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2019.12.0/NETworkManager_2019.12.0_Portable.zip",
+            "hash": "1a5a16a863425d827e1c58d711c337873c4c44b914d44f3fc27e327043597078",
+            "extract_dir": "networkmanager"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/$version/NETworkManager_$version_Portable.zip",
+                "hash": "download",
+                "extract_dir": "networkmanager"
+            }
+        }
+    }
+}
