@@ -1,0 +1,20 @@
+{
+    "version": "1.4.1",
+    "checkver": {
+        "github": "https://github.com/rupor-github/wsl-ssh-agent"
+    },
+    "bin": "wsl-ssh-agent-gui.exe",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rupor-github/wsl-ssh-agent/releases/download/v1.4.1/wsl-ssh-agent.7z",
+            "hash": "44025be1f70f6494bc24dd9c27821e2a7b152788a6447dd87d41be32dfef1e2c"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rupor-github/wsl-ssh-agent/releases/download/v$version/wsl-ssh-agent.7z"
+            }
+        }
+    }
+}
