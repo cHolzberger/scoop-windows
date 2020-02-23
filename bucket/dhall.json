@@ -1,18 +1,18 @@
 {
-    "version": "1.27.0",
+    "version": "1.30.0",
     "checkver": {
         "github": "https://github.com/dhall-lang/dhall-haskell"
     },
     "bin": "dhall.exe",
     "suggest": {
-      "dhall-to-json / dhall-from-json": "dhall-json",
-      "dhall-to-bash": "dhall-bash",
-      "dhall language server": "dhall-lsp-server"
+        "dhall-to-json / dhall-from-json": "dhall-json",
+        "dhall-to-bash": "dhall-bash",
+        "dhall language server": "dhall-lsp-server"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.27.0/dhall-1.27.0-x86_64-windows.zip",
-            "hash": "b0b9b0cecdc47eb6acbee3f6b4a719c6055c3ceafc1c019a5783e17b8e0f1e96"
+            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.30.0/dhall-1.30.0-x86_64-windows.zip",
+            "hash": "a7b6f7afc777d4fad79b1108c5986e346658e51bf86262b871be84ea8f9910a3"
         }
     },
     "autoupdate": {

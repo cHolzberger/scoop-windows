@@ -1,5 +1,5 @@
 {
-    "version": "2.2.0.0",
+    "version": "2.3.0.0",
     "bin": "WAUManager.exe",
     "homepage": "https://www.carifred.com/wau_manager/",
     "checkver": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.carifred.com/wau_manager/WAU%20Manager.exe#/WAUManager.exe",
-            "hash": "8b46a8e91ad0721c3236ccf34b8fff7dea93fc127420c5b5c2e5ac8e1e98ab50"
+            "hash": "93ad06ffed08512e92c435754f93b85c7ad9e16a0b93e31cfc424953a0ba23c1"
         }
     },
     "autoupdate": {

@@ -1,5 +1,5 @@
 {
-    "version": "1.5.0",
+    "version": "1.6.2",
     "checkver": {
         "url": "https://github.com/dhall-lang/dhall-haskell/releases/latest",
         "re": "download/(?<dhall>[\\d.]+)/dhall-json-(?<version>[\\d.]+)-x86_64-windows\\.zip"
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.27.0/dhall-json-1.5.0-x86_64-windows.zip",
-            "hash": "69f7ac0790cf5c85a358fae2d9d85515e466a5bce7d46230a8ef2046a15ac0ae"
+            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.30.0/dhall-json-1.6.2-x86_64-windows.zip",
+            "hash": "c16560a0c6e6ebab5aaf583a8a9fdd70fa05b47697c39dff3e8d6fa2f29c3c59"
         }
     },
     "autoupdate": {
