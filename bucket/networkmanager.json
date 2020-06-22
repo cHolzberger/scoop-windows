@@ -1,5 +1,5 @@
 {
-    "version": "2020.1.0",
+    "version": "2020.5.1",
     "bin": "networkmanager.exe",
     "extrac_dir": "networkmanager",
     "checkver": {
@@ -8,8 +8,8 @@
     "persist": "Settings",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2020.1.0/NETworkManager_2020.1.0_Portable.zip",
-            "hash": "bea66d1b8e1de820b6077fd1f98abdf5bdd4d7cd0477fc27941efed326dccead",
+            "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2020.5.1/NETworkManager_2020.5.1_Portable.zip",
+            "hash": "fcc6962c65cdc0ed5137acdfd23de97801a1ed74557426be8ad68f6dbfd366b6",
             "extract_dir": "networkmanager"
         }
     },

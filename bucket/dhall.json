@@ -1,5 +1,5 @@
 {
-    "version": "1.30.0",
+    "version": "1.33.0",
     "checkver": {
         "github": "https://github.com/dhall-lang/dhall-haskell"
     },
@@ -11,8 +11,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.30.0/dhall-1.30.0-x86_64-windows.zip",
-            "hash": "a7b6f7afc777d4fad79b1108c5986e346658e51bf86262b871be84ea8f9910a3"
+            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.33.0/dhall-1.33.0-x86_64-windows.zip",
+            "hash": "a3c650644cfad71acb4fccf58474014e7f7b42f6cb0dbd57105c315cf73ceaaf"
         }
     },
     "autoupdate": {

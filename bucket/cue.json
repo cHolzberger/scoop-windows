@@ -1,13 +1,13 @@
 {
-    "version": "0.0.15",
+    "version": "0.2.1",
     "checkver": {
         "github": "https://github.com/cuelang/cue"
     },
     "bin": "cue.exe",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cuelang/cue/releases/download/v0.0.15/cue_0.0.15_Windows_x86_64.zip",
-            "hash": "7d968a2a7006182a182c9b83c182352490dab867762ddc5895d90ab6859ce946"
+            "url": "https://github.com/cuelang/cue/releases/download/v0.2.1/cue_0.2.1_Windows_x86_64.zip",
+            "hash": "b705cd47d3d568b231ed94c8d3e947f9e1d9b54eab0483d9a00b1c6645be32e9"
         }
     },
     "autoupdate": {
