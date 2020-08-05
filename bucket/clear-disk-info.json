@@ -1,5 +1,5 @@
 {
-    "version": "1.9.0.0",
+    "version": "1.9.2.0",
     "bin": "ClearDiskInfo.exe",
     "homepage": "https://carifred.com/cleardiskinfo",
     "checkver": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.carifred.com/cleardiskinfo/ClearDiskInfo.exe",
-            "hash": "224d4d873654a1b7c9990ae0231b28138dfc60d01ca348d84df66abdcf79868a"
+            "hash": "a3792132a23d384fa37e4c172d8b6b2b12a4995759ab777d16d93d6ffcb2e1ba"
         }
     },
     "autoupdate": {
