@@ -1,21 +1,21 @@
 {
-    "version": "5.5.0-743",
+    "version": "5.5-186",
     "bin": "bin/kdevelop.exe",
     "homepage": "https://carifred.com/cleardiskinfo",
     "checkver": {
-        "url": "https://binary-factory.kde.org/job/KDevelop_Release_win64/lastSuccessfulBuild/artifact/",
-        "re": "kdevelop-(?<version>[\\d]+\\.[\\d]+\\.[\\d]+-[\\d]+)-windows-msvc2017_64-cl.7z"
+        "url": "https://binary-factory.kde.org/view/Management/job/KDevelop_Stable_win64/lastSuccessfulBuild/artifact/",
+        "re": "kdevelop-(?<version>[\\d]+\\.[\\d]+-[\\d]+)-windows-msvc2019_64-cl.7z"
     },
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/job/KDevelop_Release_win64/lastSuccessfulBuild/artifact/kdevelop-5.5.0-743-windows-msvc2017_64-cl.7z",
-            "hash": "64ca4e1a8847f4be3c1f5f4c4a40f66802df60ebee2fc350e04244d6bcb16f72"
+            "url": "https://binary-factory.kde.org/view/Management/job/KDevelop_Stable_win64/lastSuccessfulBuild/artifact/kdevelop-5.5-186-windows-msvc2019_64-cl.7z",
+            "hash": "1f44b6320b0e845eff8f00eb9c1614d8f273f06e8031dcdb4683894f1cc5f8e6"
         }
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://binary-factory.kde.org/job/KDevelop_Release_win64/lastSuccessfulBuild/artifact/kdevelop-$version-windows-msvc2017_64-cl.7z",
+                "url": "https://binary-factory.kde.org/view/Management/job/KDevelop_Stable_win64/lastSuccessfulBuild/artifact/kdevelop-$version-windows-msvc2019_64-cl.7z",
                 "hash": {
                     "url": "$url.sha256"
                 }

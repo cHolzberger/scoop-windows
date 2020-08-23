@@ -1,7 +1,7 @@
 {
     "version": "2020.5.1",
     "bin": "networkmanager.exe",
-    "extrac_dir": "networkmanager",
+    "extract_dir": "networkmanager",
     "checkver": {
         "github": "https://github.com/BornToBeRoot/NETworkManager"
     },

@@ -2,10 +2,10 @@
     "##": "Renaming .msi to .msi_ so that it will not be automatically extracted by Scoop.",
     "homepage": "http://www.secfs.net/winfsp/",
     "description": "WinFsp attempts to ease the task of writing a new file system for Windows in the same way that FUSE has done so for UNIX.",
-    "version": "1.8.20186",
+    "version": "1.8.20221",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/billziss-gh/winfsp/releases/download/v1.8B1/winfsp-1.8.20186.msi#/setup.msi_",
-    "hash": "c770c72460f4ce97d14bf5b15ffd1fefc819c55f99164df2b77cf175a327960a",
+    "url": "https://github.com/billziss-gh/winfsp/releases/download/v1.8B2/winfsp-1.8.20221.msi#/setup.msi_",
+    "hash": "98db168414dd61282ad25a66dd2128d6495d5f03df92b9498e3848d0b1d0c8ae",
     "installer": {
         "script": "Invoke-ExternalCommand msiexec -ArgumentList @('/i', \"$dir\\setup.msi_\", '/qn') -RunAs | Out-Null"
     },
