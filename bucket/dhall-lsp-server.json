@@ -1,5 +1,5 @@
 {
-    "version": "1.0.9",
+    "version": "1.0.10",
     "checkver": {
         "url": "https://github.com/dhall-lang/dhall-haskell/releases/latest",
         "re": "download/(?<dhall>[\\d.]+)/dhall-lsp-server-(?<version>[\\d.]+)-x86_64-windows\\.zip"
@@ -7,8 +7,8 @@
     "bin": "dhall-lsp-server.exe",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.34.0/dhall-lsp-server-1.0.9-x86_64-windows.zip",
-            "hash": "3ced67022c78731bac6d1024f0761d9841895b125eee69e393b9613a2f37fe25"
+            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.35.0/dhall-lsp-server-1.0.10-x86_64-windows.zip",
+            "hash": "a3bc94cc7861ac3d915587c7b64a5c5cf507f506a9351fdcfeaf37d698baff26"
         }
     },
     "autoupdate": {

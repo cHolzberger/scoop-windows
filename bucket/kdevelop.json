@@ -1,5 +1,5 @@
 {
-    "version": "5.5-204",
+    "version": "5.5-220",
     "bin": "bin/kdevelop.exe",
     "homepage": "https://carifred.com/cleardiskinfo",
     "checkver": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://binary-factory.kde.org/view/Management/job/KDevelop_Stable_win64/lastSuccessfulBuild/artifact/kdevelop-5.5-204-windows-msvc2019_64-cl.7z",
-            "hash": "fd4f5c5684357a66a43f88b126787a473ed4eaff7be60f495c77379abea4d7d6"
+            "url": "https://binary-factory.kde.org/view/Management/job/KDevelop_Stable_win64/lastSuccessfulBuild/artifact/kdevelop-5.5-220-windows-msvc2019_64-cl.7z",
+            "hash": "4e72a3369597787e05e224394442176b93a5d7ff30c4bfac03cf92133a595b4d"
         }
     },
     "autoupdate": {
