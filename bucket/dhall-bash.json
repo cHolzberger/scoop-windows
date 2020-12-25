@@ -1,5 +1,5 @@
 {
-    "version": "1.0.33",
+    "version": "1.0.35",
     "checkver": {
         "url": "https://github.com/dhall-lang/dhall-haskell/releases/latest",
         "re": "download/(?<dhall>[\\d.]+)/dhall-bash-(?<version>[\\d.]+)-x86_64-windows\\.zip"
@@ -7,8 +7,8 @@
     "bin": "dhall-to-bash.exe",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.35.0/dhall-bash-1.0.33-x86_64-windows.zip",
-            "hash": "0a3bfc95706c31ae28ee0cf4321451a69f9355c7e37a20f6e8e87ad8e5a7d2e4"
+            "url": "https://github.com/dhall-lang/dhall-haskell/releases/download/1.37.1/dhall-bash-1.0.35-x86_64-windows.zip",
+            "hash": "0e8915387a5fb4b17b9becde39b145632b0fb527680bf74ec26fc426c1cd4657"
         }
     },
     "autoupdate": {

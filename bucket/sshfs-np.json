@@ -2,16 +2,16 @@
     "##": "Renaming .msi to .msi_ so that it will not be automatically extracted by Scoop.",
     "homepage": "http://www.github.com/billziss-gh/sshfs-win/",
     "description": "SSHFS For Windows",
-    "version": "3.5.20160",
+    "version": "3.5.20357",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20160/sshfs-win-3.5.20160-x64.msi#/setup.msi_",
-            "hash": "025a6c51d8582af72564e4691de2b7f0d765148a132af84e4b6d6cf9ea587830"
+            "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20357/sshfs-win-3.5.20357-x64.msi#/setup.msi_",
+            "hash": "1657e397f8dce1c2d2e3220007f9c9f882631882b9bec4608f7835e87dcd096c"
         },
         "32bit": {
-            "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20160/sshfs-win-3.5.20160-x86.msi#/setup.msi_",
-            "hash": "590884360ab7d951f3db5cd685db68dcaefc3e4b69ba5cf4b3b84077ef766c64"
+            "url": "https://github.com/billziss-gh/sshfs-win/releases/download/v3.5.20357/sshfs-win-3.5.20357-x86.msi#/setup.msi_",
+            "hash": "9643daf27eb7e384dadc9e64a4299c8d92e6c91e07913e9425f5b19aad3b2ded"
         }
     },
     "depends": {

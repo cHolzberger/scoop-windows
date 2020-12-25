@@ -1,5 +1,5 @@
 {
-    "version": "0.4.6",
+    "version": "0.4.9",
     "bin": "goneovim.exe",
     "homepage": "gh",
     "checkver": {
@@ -7,9 +7,9 @@
     },
     "architecture": {
         "64bit": {
-            "hash": "4282f1d9db1f562eef4c974eecd209ac335703808aae032e3997ecf2b35332b5",
-            "url": "https://github.com/akiyosi/goneovim/releases/download/v0.4.6/Goneovim-0.4.6-win64.zip",
-            "extract_dir": "goneovim-0.4.6-win64"
+            "hash": "072a2a219587641a440ebcb6b73da459124547ff6e465775a6826f4252438bb9",
+            "url": "https://github.com/akiyosi/goneovim/releases/download/v0.4.9/Goneovim-0.4.9-win64.zip",
+            "extract_dir": "goneovim-0.4.9-win64"
         }
     },
     "autoupdate": {
