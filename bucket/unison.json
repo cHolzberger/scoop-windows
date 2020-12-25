@@ -1,11 +1,11 @@
 {
-    "version": "2.51.2",
+    "version": "2.51.3",
     "description": "A file-synchronization tool.",
     "homepage": "https://www.cis.upenn.edu/~bcpierce/unison",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/bcpierce00/unison/releases/download/v2.51.2/unison-windows-2.51.2-text.zip",
-    "hash": "9c1e1fca202dd1e7f55b82c1abf632ee546424253284a062839e7a7212a180bf",
-    "extract_dir": "unison-windows-2.51.2-text",
+    "url": "https://github.com/bcpierce00/unison/releases/download/v2.51.3/unison-v2.51.3+ocaml-4.11.1+x86_64.windows.zip",
+    "hash": "8f0cfc1cda52d43f715a9aa7cb1b46bd6c0072b889eb6a7c8d3079c61ab93235",
+    "extract_dir": "unison-windows-2.51.3-text",
     "bin": [
         "unison.exe",
         "unison-fsmonitor.exe"
@@ -14,7 +14,7 @@
         "github": "https://github.com/bcpierce00/unison"
     },
     "autoupdate": {
-        "url": "https://github.com/bcpierce00/unison/releases/download/v$version/unison-windows-$version-text.zip",
+        "url": "https://github.com/bcpierce00/unison/releases/download/v$version/unison-v$version+ocaml-4.11.1+x86_64.windows.zip",
         "extract_dir": "unison-windows-$version-text"
     }
 }
