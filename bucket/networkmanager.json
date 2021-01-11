@@ -5,7 +5,10 @@
     "checkver": {
         "github": "https://github.com/BornToBeRoot/NETworkManager"
     },
-    "persist": "Settings",
+    "persist": [
+        "Settings",
+        "Profiles"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2021.1.0/NETworkManager_2021.1.0_Portable.zip",
