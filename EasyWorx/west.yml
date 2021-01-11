@@ -1,0 +1,16 @@
+manifest:
+  defaults:
+    remote: upstream
+    revision: master
+  remotes:
+    - name: upstream
+      url-base: https://gitea.app.mosaiksoftware.de/Hackly_GmbH
+  projects:
+    - name: EasyWorx-Infra
+      remote: upstream
+      repo-path: EasyWorx-Infra.git
+      path: "Infra"
+      revision: "master"
+self:
+    path: Infra
+    west-commands: commands.yml

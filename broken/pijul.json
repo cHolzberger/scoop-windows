@@ -1,0 +1,25 @@
+{
+    "version": "0.11.0",
+    "bin": "pijul.exe",
+    "homepage": "https://carifred.com/cleardiskinfo",
+    "checkver": {
+        "url": "https://pijul.org/downloads/",
+        "re": "pijul-(?<version>[\\d]+\\.[\\d]+\\.[\\d]+).exe"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://pijul.org/releases/pijul-0.11.0.exe",
+            "hash": ""
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://pijul.org/releases/pijul-$version.exe",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
